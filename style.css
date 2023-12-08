@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 800px;
+}
+table {
+  margin: 50px 50px;
+}
+table,
+th,
+td {
+  border: 1px solid rgb(128, 119, 0);
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 5px 10px;
+  background-color: aqua;
+  color: black;
+}
+th {
+  text-align: start;
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.update-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 30px 50px;
+  gap: 10px;
+}
+
+input,
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.update-user > button {
+  background-color: orange;
+  color: #ffffff;
+}
+
+.update-user > .save-user {
+  background-color: green;
+  color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+}
+
+.create-user {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin: 20px 50px;
+  gap: 14px;
+}
+
+.create-user .btn {
+  background-color: orange;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.create-user .create-user-btn {
+  background-color: green;
+  border-radius: 5px;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.display-none {
+  display: none;
+}
+
+
+marquee{
+  padding-top: 50px;
+  padding-left: 50  0px;
+}
